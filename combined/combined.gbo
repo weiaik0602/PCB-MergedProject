@@ -4,9 +4,9 @@
 %IPPOS*%
 %LPD*%
 %ADD10C,0.0039370078740157488*%
-%ADD21C,0.0039370078740157488*%
-%ADD22C,0.0047244094488188976*%
-%ADD23C,0.005905511811023622*%
+%ADD11C,0.0047244094488188976*%
+%ADD12C,0.005905511811023622*%
+%ADD23C,0.0039370078740157488*%
 %ADD24C,0.0039370078740157488*%
 %ADD25C,0.0047244094488188976*%
 %ADD26C,0.005905511811023622*%
@@ -48,14 +48,7 @@
 %ADD62C,0.005905511811023622*%
 G01G01*
 D10*
-G04 next file*
-G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.7) date 11/22/17 20:28:19*
-G01G01*
-G04 APERTURE LIST*
-G04 APERTURE END LIST*
-D21*
-D22*
+D11*
 X0003247937Y0000864992D02*
 X0003208566Y0000864992D01*
 X0003208566Y0000811448D02*
@@ -88,25 +81,32 @@ X0003247937Y0000164992D02*
 X0003208566Y0000164992D01*
 X0003208566Y0000111448D02*
 X0003247937Y0000111448D01*
-D21*
-D23*
-D21*
-D23*
-D21*
-D23*
-D21*
-D23*
-D21*
-D23*
-D21*
-D23*
-D21*
-D23*
-D21*
+D10*
+D12*
+D10*
+D12*
+D10*
+D12*
+D10*
+D12*
+D10*
+D12*
+D10*
+D12*
+D10*
+D12*
+D10*
+D12*
+G04 next file*
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 4.0.7) date 11/27/17 18:36:11*
+G01G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
 D23*
 G04 next file*
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.7) date 11/22/17 20:28:19*
+G04 Created by KiCad (PCBNEW 4.0.7) date 11/27/17 18:36:53*
 G01G01*
 G04 APERTURE LIST*
 G04 APERTURE END LIST*
@@ -162,7 +162,7 @@ D24*
 D26*
 G04 next file*
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.7) date 11/22/17 20:28:19*
+G04 Created by KiCad (PCBNEW 4.0.7) date 11/27/17 18:36:53*
 G01G01*
 G04 APERTURE LIST*
 G04 APERTURE END LIST*
@@ -218,7 +218,7 @@ D27*
 D29*
 G04 next file*
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.7) date 11/22/17 20:28:19*
+G04 Created by KiCad (PCBNEW 4.0.7) date 11/27/17 18:36:53*
 G01G01*
 G04 APERTURE LIST*
 G04 APERTURE END LIST*
@@ -274,7 +274,7 @@ D30*
 D32*
 G04 next file*
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.7) date 11/22/17 20:28:19*
+G04 Created by KiCad (PCBNEW 4.0.7) date 11/27/17 18:36:53*
 G01G01*
 G04 APERTURE LIST*
 G04 APERTURE END LIST*
@@ -330,7 +330,7 @@ D33*
 D35*
 G04 next file*
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.7) date 11/22/17 20:28:19*
+G04 Created by KiCad (PCBNEW 4.0.7) date 11/27/17 18:36:53*
 G01G01*
 G04 APERTURE LIST*
 G04 APERTURE END LIST*
@@ -386,7 +386,7 @@ D36*
 D38*
 G04 next file*
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.7) date 11/22/17 20:28:19*
+G04 Created by KiCad (PCBNEW 4.0.7) date 11/27/17 18:36:53*
 G01G01*
 G04 APERTURE LIST*
 G04 APERTURE END LIST*
@@ -442,7 +442,7 @@ D39*
 D41*
 G04 next file*
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.7) date 11/22/17 20:28:19*
+G04 Created by KiCad (PCBNEW 4.0.7) date 11/27/17 18:36:53*
 G01G01*
 G04 APERTURE LIST*
 G04 APERTURE END LIST*
@@ -498,7 +498,7 @@ D42*
 D44*
 G04 next file*
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.7) date 11/22/17 20:28:19*
+G04 Created by KiCad (PCBNEW 4.0.7) date 11/27/17 18:36:53*
 G01G01*
 G04 APERTURE LIST*
 G04 APERTURE END LIST*
@@ -554,7 +554,7 @@ D45*
 D47*
 G04 next file*
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.7) date 11/22/17 20:28:19*
+G04 Created by KiCad (PCBNEW 4.0.7) date 11/27/17 18:36:53*
 G01G01*
 G04 APERTURE LIST*
 G04 APERTURE END LIST*
@@ -610,7 +610,7 @@ D48*
 D50*
 G04 next file*
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.7) date 11/22/17 20:28:19*
+G04 Created by KiCad (PCBNEW 4.0.7) date 11/27/17 18:36:53*
 G01G01*
 G04 APERTURE LIST*
 G04 APERTURE END LIST*
@@ -666,7 +666,7 @@ D51*
 D53*
 G04 next file*
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.7) date 11/22/17 20:28:19*
+G04 Created by KiCad (PCBNEW 4.0.7) date 11/27/17 18:36:53*
 G01G01*
 G04 APERTURE LIST*
 G04 APERTURE END LIST*
@@ -722,7 +722,7 @@ D54*
 D56*
 G04 next file*
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.7) date 11/22/17 20:28:19*
+G04 Created by KiCad (PCBNEW 4.0.7) date 11/27/17 18:36:53*
 G01G01*
 G04 APERTURE LIST*
 G04 APERTURE END LIST*
@@ -778,7 +778,7 @@ D57*
 D59*
 G04 next file*
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.7) date 11/22/17 20:28:19*
+G04 Created by KiCad (PCBNEW 4.0.7) date 11/27/17 18:36:53*
 G01G01*
 G04 APERTURE LIST*
 G04 APERTURE END LIST*
